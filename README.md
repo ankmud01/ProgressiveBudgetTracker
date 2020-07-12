@@ -41,8 +41,6 @@ N/A
 ## Contributing
 N/A
 
-<br>
-<img src="" alt="Demo">
 
 ## Questions
 
