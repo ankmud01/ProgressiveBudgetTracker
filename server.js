@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-let MONGODB_URI = "mongodb://localhost/budget" || "mongodb://offlinebudgettracker:offlinebudgettracker01@ds031203.mlab.com:31203/heroku_k0v0kwjh"
+let MONGODB_URI = "mongodb://offlinebudgettracker:offlinebudgettracker01@ds031203.mlab.com:31203/heroku_k0v0kwjh" || "mongodb://localhost/budget" 
 mongoose.connect(MONGODB_URI)
 
 // routes
